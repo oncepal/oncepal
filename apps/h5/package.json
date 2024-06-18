@@ -18,6 +18,7 @@
     "@types/react-dom": "^18.2.22",
     "@vitejs/plugin-react": "^4.2.1",
     "@oncepal/typescript-config": "*",
+    "@oncepal/utils":"*",
     "@oncepal/ui": "*",
     "typescript": "^5.2.2",
     "vite": "^5.2.0"
