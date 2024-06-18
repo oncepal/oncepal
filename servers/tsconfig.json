@@ -1,0 +1,5 @@
+{
+  "extends": "@oncepal/typescript-config/server.json",
+  "include": ["."],
+  "exclude": ["dist", "build", "node_modules"]
+}

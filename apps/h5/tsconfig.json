@@ -1,0 +1,5 @@
+{
+  "extends": "@oncepal/typescript-config/h5.json",
+  "include": ["src"],
+  "exclude": ["dist", "build", "node_modules"]
+}

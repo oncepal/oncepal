@@ -1,0 +1,5 @@
+{
+  "extends": "@oncepal/typescript-config/ui.json",
+  "include": ["."],
+  "exclude": ["dist", "build", "node_modules"]
+}
