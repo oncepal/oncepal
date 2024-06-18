@@ -3,6 +3,8 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
+    "dev:ui": "turbo run dev --filter=@oncepal/ui --filter=@oncepal/utils --filter=@oncepal/docs",
+    "dev:h5": "turbo run dev --filter=@oncepal/h5",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
@@ -14,7 +16,6 @@
   "packageManager": "npm@9.7.1",
   "workspaces": [
     "apps/*",
-    "servers/*",
     "packages/*"
   ]
 }
